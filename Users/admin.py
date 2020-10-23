@@ -3,7 +3,7 @@ from Users.user import User
 # Inherit from User
 class Admin(User):
     def details(self):
-        return self.name + " (Admin) | " + str(self.age) + "             | "
+        return self.name + " (Admin)| " + str(self.age) + "            | "
 
     # __str__ will return this line when calling the class. eg: print(user1)
     def __str__(self):
